@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm-black neutrals (replacing default cool gray) */
+  --color-gray-950: #0c0904;
+  --color-gray-900: #17130b;
+  --color-gray-800: #221c10;
+  --color-gray-700: #3d331d;
+  --color-gray-600: #5c4d2c;
+
+  /* Gold accent (replacing green as the site's link/active/highlight color) */
+  --color-green-900: #241a08;
+  --color-green-700: #9c7a3f;
+  --color-green-600: #b3924f;
+  --color-green-400: #d4b56e;
+
+  /* Highlight, aligned to the gold accent */
+  --color-yellow-500: #c9a662;
+  --color-yellow-400: #e0c690;
+
+  /* Brand-only tokens, used intentionally (logo halo, nav underline) */
+  --color-brand-blue: #04678e;
+  --color-brand-blue-dark: #033048;
+}
+
+:root {
+  --heading: 'Cinzel', serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+}

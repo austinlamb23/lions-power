@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+openai
+apscheduler
+httpx
+python-dotenv
+requests
+python-multipart
+Pillow
